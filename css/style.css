@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 50px 100px;
+    background-color: #59564e;
+}
+.paperblock{
+    display: block;
+    z-index: 1;
+}
+.papercontainer{
+        width: 900px;
+        height:70vh;
+        background-color: antiquewhite;
+}
+.smalltitle{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+.smalltitle p{
+    font-size: 10px;
+    color: #7a7974;
+}
+
+.bigtitleorage{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 30px;
+}
+.bigtitleorage .containerorange{
+    width: 47%;
+    justify-content: center;
+    text-align: left;
+}
+.bigtitleorage .containerorange h2{
+    color:#d6630b;
+    letter-spacing: 4px;
+    font-weight: 600;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.bigtitleorage .containersmalltitle{
+    width: 40%;
+  
+    justify-content: center;
+    text-align: left;
+}
+.bigtitleorage .containersmalltitle p{
+    position: relative;
+    top: 10px;
+    color: #7a7974;
+    font-size:18px;
+}
+
+.papercontainerdown{
+    position: relative;
+    min-width: 800px;
+    height: 160vh;
+    background-color: #fff;
+}
+.paper{
+    position: absolute;
+    top: 250px;
+    margin: 0 50px;
+    z-index: 3;
+    padding:70px;
+    width: 800px;
+    height: 180vh;
+    background-color:#fff;
+    box-shadow: 0 1px 1px 0px #59564e;
+}
+.paper .papertopcontainer{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.paper .papertopcontainer .papertopleft{
+ display: block;    
+}
+.paper .papertopcontainer .papertopleft p{
+   color: #454745;  
+   font-size: 12px; 
+   }
+
+
+.paper .papertopcontainer .logotopright{
+    display: block;
+}
+.paper .papertopcontainer .logotopright .logo{
+   width: 30px;
+   height: 35px;
+   margin-right: 10px;
+}
+
+.paper .toptitleleft{
+    display: block;
+    text-align: left;
+    padding-top: 30px;
+}
+.paper .toptitleleft h3{
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 2px;
+    color: #454745; 
+}
+.paper .toptitleleft h3 strong{
+   color: black;
+}
+.paper .toptitleleft p{
+  padding:15px 0;
+  color: #454745; 
+  font-size: 14px;
+ word-spacing: 2px;
+}
+.paper .toptitleleft .bordertopmid{
+    width: 100%;
+    background-color: #c5c7c5;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 4px;
+    color: #454745; 
+}
+.bordermidtitle{
+    position: relative;
+    overflow: inherit;
+    margin-top: 5px;
+    width: 100%;
+    height: 21px;
+    display: flex;
+    justify-content: left;
+    border-top: 1px solid #454745;
+    border-bottom: 1px solid #808080;
+
+}
+.bordermidtitle p{
+   position: relative;
+   color: black !important;
+
+
+}
+.bordermidtitle span{
+   color: #454745;
+  
+}
+.toptitleleft .bordermidtitle .result{
+    margin-left: 100px;
+    font-weight: 400;
+ 
+}
+.toptitleleft .bordermidtitle .comment{
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+.firstrow{
+    border-bottom: 1px solid #808080;
+    width:100%;
+    height: 170px;
+    justify-content: left;
+    display: flex;
+    padding: 0;
+    margin-top: -10px;
+}
+
+.firstrow .firstrowfirstcolumn{
+    padding: 0;
+}
+.firstrow .firstrowsecondcolumn{
+    padding: 0 10px;
+}
+.firstrow .firstrowsecondcolumn p{
+    color: red;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 600;
+}
+.firstrow .firstrowfirstcolumn span{
+    position: relative;
+    top: -18px;
+   font-size: 10px;
+   font-family: 'Noto Sans JP', sans-serif;
+}
+
+.firstrow .firstrowthirdcolumn{
+    position: relative;
+    left: 20px;
+    padding-top: 2px;
+    line-height: 12px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.firstrow .firstrowthirdcolumn  .insidefirstrowthirdcolumn{
+    position: relative;
+}
+.firstrow .firstrowthirdcolumn  .insidefirstrowthirdcolumn p{
+    position:relative;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.firstrow .firstrowthirdcolumn  .insidefirstrowthirdcolumn p span{
+    font-size: 14px;
+    text-decoration: underline;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.firstrow .firstrowthirdcolumn  .insidefirstrowthirdcolumn .location{
+    margin-top: -8px;
+    font-size: 12px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.firstrow .firstrowthirdcolumn  .insidefirstrowthirdcolumn .location .p{
+    margin-top: 5px;
+    font-size: 10px;
+    color: #454745; 
+    padding: 2px 0;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+.firstrow .firstrowthirdcolumn .insidefirstrowthirdcolumn .fire{
+    transform: scale(0.9);
+}
+.secondtolastrow{
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.secondtolastrow .row{
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 8px 0;
+    justify-content: left;
+    height: 45px;
+    border-bottom: 1px solid #808080;
+    font-size: 11px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.secondtolastrow .row .secondrowbody{
+    display: block;
+    width: 200px;
+    margin-top: -10px;
+    line-height: 2px;
+}
+.secondtolastrow .row .secondrowbody p{
+    position: relative;
+    color: black;
+    font-weight: 500;
+}
+.row .secondrowbody span{
+    position: inherit;
+    font-size: 9px !important;
+}
+/* 
+row last */
+.secondtolastrow .rowlast{
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 8px 0;
+    justify-content: left;
+    height: 45px;
+   
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.secondtolastrow .rowlast .secondrowbody{
+    display: block;
+    width: 200px;
+    margin-top: -10px;
+    line-height: 2px;
+}
+
+.secondtolastrow .rowlast .secondrowbody p{
+    position: relative;
+    color: black;
+    font-weight: 500;
+}
+.secondtolastrow .rowlast .secondrowbody span{
+    position: inherit;
+    font-size: 9px;
+}
+
+.passlast{
+    padding-left: 7px;
+    color: green;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+}
+ .pass{
+     padding-left: 7px;
+    color: green;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 600;
+}
+
+.graybarpadding{
+    margin-top: 30px;
+}
+
+.graybarpadding .borderbotmid{
+    width: 100%;
+    background-color: #c5c7c5;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px 0;
+    color: #454745; 
+}
+.rowbot{
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 8px 0;
+    justify-content: left;
+    height: 60px;
+    border-bottom: 1px solid #808080;
+    font-size: 11px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.rowbot .secondrowbodybot{
+    display: block;
+    width: 200px;
+    margin-top: -10px;
+    line-height: 1px;
+}
+
+.rowbot .secondrowbodybot p{
+    position: relative;
+    color: black;
+    font-weight: 500;
+
+}
+.rowbot .secondrowbodybot span{
+    position: absolute;
+    color: black;
+    font-weight: 500;
+    padding-top: 2px;
+}
+.rowbot .secondrowbodybot small{
+    position: absolute;
+    font-size: 9px;
+    top: 45px;
+}
+.footer{
+    position: relative;
+    top: 180px;
+    display: flex;
+    border-top: 1px solid #c5c7c5;
+    width: 100%;
+    justify-content: left;
+}
+.footer p{
+   font-size: 10px !important;
+   margin-right: 30px;
+}
+.verybottom{
+    position: relative;
+    z-index: 5;
+    justify-content: space-between;
+    display: flex;
+    top: -28px;
+    width: 100%;
+    bottom: 1px;
+    padding: 0 50px 20px 50px;
+}
+.verybottom .upstickflex{
+    display: flex;
+    justify-content: center;
+    position: relative;
+  
+}
+.verybottom .upstickflex .upstickpic{
+    width: 20px;
+    height: 23px;
+
+}
+.verybottom .upstickflex p{
+    font-size: 15px;
+    font-weight: 600;
+    color: orangered;
+    padding: 0 3px;
+    letter-spacing: 2px;
+}
+.verybottom .upstick{
+    color: #59564e;
+    font-size: 11px;
+}
+.upstickpic{
+    
+}
+
+
+
+/* 
+.
