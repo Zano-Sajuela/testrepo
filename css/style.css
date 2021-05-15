@@ -80,7 +80,7 @@ body{
     z-index: 3;
     padding:70px;
     width: 800px;
-    height: 170vh;
+    height: 165vh;
     background-color:#fff;
     box-shadow: 0 1px 1px 0px #59564e;
 }
@@ -360,7 +360,7 @@ row last */
 }
 .footer{
     position: relative;
-    top: 140px;
+    top: 170px;
     display: flex;
     border-top: 1px solid #c5c7c5;
     width: 100%;
